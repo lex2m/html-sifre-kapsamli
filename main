@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>index</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body bgcolor="#f5aaff">
+    <center>
+        <br><br><br>
+    <form action="index.html" method="post">
+        <label>Ad Soyad:</label><input type="text" name="ad" autofocus="autofocus"><br/><br/>
+        <label>e-Posta:</label><input type= ><br/><br/>
+        <label>Telefon:</label><input type="number" name="tel"><br/><br/>
+        <label>Şifre:</label><input type="password" name="eposta"><br/><br/>
+        <label>Cinsiyet:</label><input type="radio" name="cinsiyet" value="erkek" checked="on"> Erkek 
+        <input type="radio" name="cinsiyet" value="kadin"> Kadın
+        <input type="radio" name="cinsiyet" value="diger"> Diğer <br><br><br>
+       <label> Diller:</label><input type="checkbox" value="en"> İngilizce
+      <input type="checkbox" value="tr" checked="on"> Türkçe
+     <input type="checkbox" value="itl" checked="on"> İtalyanca <br>    
+     <p>Renk seçin: <input type="color" name="renk"></p><br> 
+      
+       
+       <select name="iller" size="1">
+        <option value="plaka54">Sakarya</option>
+        <option value="plaka06">Ankara</option>
+        <option value="plaka34">İstanbul</option>
+        <option value="plaka82">Paris</option>
+        </select> 
+        
+        <select name="aylar" slot="1">
+            <option value="1">Ocak</option>
+            <option value="2">Şubat</option>
+            <option value="3">Mart</option>
+            <option value="4">Nisan</option>
+            <option value="5">Mayıs</option>
+            <option value="6">Haziran</option>
+            </select> 
+           
+
+                <br><br>
+
+ <label> Mesajınız:</label> <br> <textarea name="area" cols="30" rows="10"></textarea> <br><br>
+       
+ <input type="submit" value="Gönder"> <input type="reset" value="Temizle">
+       <br><br>
+       
+        </form>
+    
+
+
+    
+
+    </center>
+    
+</body>
+
+</html>
